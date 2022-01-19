@@ -27,6 +27,8 @@ const handleUserInput = function (key) {
       break;
     case "d":
       connection.write("Move: right");
+    case "m":
+      connection.write("Say: i hear flutes");
   }
 };
 
